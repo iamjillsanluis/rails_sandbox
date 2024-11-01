@@ -21,7 +21,8 @@ module Maintenance
     def count
       # Optionally, define the number of rows that will be iterated over
       # This is used to track the task's progress
-      75966
+      # 75966
+      Quote.all.size
     end
   end
 end
