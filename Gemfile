@@ -57,3 +57,5 @@ group :test do
 end
 
 gem "maintenance_tasks", "~> 2.8"
+
+gem "sidekiq", "~> 7.3"
