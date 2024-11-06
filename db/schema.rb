@@ -34,6 +34,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_31_024916) do
 
   create_table "quotes", force: :cascade do |t|
     t.string "content"
+    t.string "author"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
