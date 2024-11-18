@@ -56,6 +56,6 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "maintenance_tasks", "~> 2.8"
+gem "maintenance_tasks", "~> 2.9"
 
 gem "sidekiq", "~> 7.3"
